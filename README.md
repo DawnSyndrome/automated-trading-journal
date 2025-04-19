@@ -56,6 +56,8 @@ inconveniences, the main ones being either:
 This application, while still being a small and limited version of a bigger idea, tries to provide a free
 alternative to journal automation and dashboard customization.
 
+Here's a simple example of what can be generated:
+
 ![Daily Trade Recap.png](obsidian/examples/daily/output/Daily%20Trade%20Recap.png)
 
 ---
