@@ -1,0 +1,18 @@
+.markdown-preview-view .mermaid {
+    /*
+	border: 1px solid #ff0000;
+    */
+	padding: 0px 0px 0px 0px;
+}
+
+.markdown-preview-view .mermaid svg {
+    max-height: 300px;
+    /*
+    border: 1px solid #ff0000;
+    */
+	padding: 0px 200px 0px 0px;
+}
+
+.markdown-preview-view .mermaid .slice {
+    font-weight: bold;
+}

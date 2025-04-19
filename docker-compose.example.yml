@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  automated-trading-journal:
+    build:
+      context: .
+    container_name: automated-trading-journal
+    volumes:
+      - ./logs:/app/logs
+      - "./reports:/app/reports"
+    env_file:
+      - .env
+    command: >
+      python app.py 
+      --timeframe=${TIMEFRAME:-daily}
+      --config_type=${CONFIG_TYPE:-toml}
+    restart: unless-stopped
