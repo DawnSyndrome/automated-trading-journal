@@ -28,6 +28,7 @@
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Features](#features)
+- [Quality of Life Additions](#quality-of-life-additions)
 - [Project Structure](#project-structure)
     - [Project Index](#project-index)
 - [Getting Started](#getting-started)
@@ -35,10 +36,8 @@
     - [Installation](#installation)
     - [Usage](#usage)
     - [Testing](#testing)
-- [Roadmap](#roadmap)
+- [(Potential) Roadmap](#roadmap)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -88,6 +87,27 @@ access the files afterwards. Please ensure the paths under the `volumes` section
 by updating the `-tf` or `--timeframe` argument to generate either a "**daily**", "**weekly**" or "**monthly**" report, and the
 `-dt` or `--start_date` arguments (in "**_YYYY-mm-dd_**" or "**_YYYY-mm_**" format for monthly reports) to choose from which date the
 report should start from
+
+---
+
+## Quality of Life Additions
+
+### Obsidian
+
+In order to have an enhanced user experience using Journals with Obisidan, I'd recommend taking the following steps:
+
+- Go to you `.obsidian` folder under your Obsidian Vault Root directory and copy [this](obsidian/css/snippets) folder (feel free to change these files to fit your needs);
+- In Obsidian, open your `Settings` -> `Options/Appearance` -> Scroll down and import the snippets, then toggle on those that interested you;
+![img.png](assets/images/obsidian_snippets.png)
+- Install the following community plugins:
+
+  - [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian);
+  - [Dataview](https://github.com/blacksmithgu/obsidian-dataview);
+  - [Home tab](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/home-tab);
+  - [Iconize](https://github.com/FlorianWoelki/obsidian-iconize);
+  - [Mermaid Tools](https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/mermaid-tools);
+  - [Omnisearch](https://obsidian.md/plugins?search=Omnisearch);
+  - [Paste Link](https://github.com/jose-elias-alvarez/obsidian-paste-link);
 
 ---
 
